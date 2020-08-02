@@ -1,20 +1,20 @@
 const bodyParser 				= require("body-parser"),
 	  methodOverride 			= require("method-override"),
 	  mongoose   				= require("mongoose"),
-	  express	   				= require("express"),
+	  express	   			= require("express"),
 	  app        				= express(),
-	  flash						= require("connect-flash"),
-	  moment					= require("moment"),
-	  passport					= require("passport"),
+	  flash					= require("connect-flash"),
+	  moment				= require("moment"),
+	  passport				= require("passport"),
 	  LocalStrategy   			= require("passport-local"), 
-	  User 						= require("./models/user"),
+	  User 					= require("./models/user"),
 	  seedDB          			= require("./seed");
 	
 //Requiring Routes
-const commentRoutes     		= require("./routes/comment"),
+const commentRoutes     			= require("./routes/comment"),
 	  poemRoutes 		  		= require("./routes/poem"),
-	  likeDislikeRoutes 		= require("./routes/like_dislike"),
-	  indexRoutes       		= require("./routes/index");
+	  likeDislikeRoutes 			= require("./routes/like_dislike"),
+	  indexRoutes       			= require("./routes/index");
 
 // APP CONFIG
 
