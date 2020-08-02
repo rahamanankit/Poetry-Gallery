@@ -1,6 +1,6 @@
 const express 		= require("express");
 const router 		= express.Router({mergeParams: true});
-const Poem 			= require("../models/poem");
+const Poem 		= require("../models/poem");
 const Comment 		= require("../models/comment");
 const middleware 	= require("../middleware");
 
