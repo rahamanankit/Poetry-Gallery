@@ -1,0 +1,17 @@
+<%- include("../partials/header") %>
+
+<section class="container">
+	<form action="/poems/<%=poem.id%>?_method=PUT" method="POST">
+	  <div class="form-group">
+		<label for="poemTitle">Enter Poem Title</label>
+		<input type="text" name="poem[title]" class="form-control" id="poemTitle" value="<%=poem.title%>">
+	  </div>
+	  <div class="form-group">
+		<label for="poemBody">Enter Poem</label>
+		<textarea class="form-control" name="poem[body]" id="poemBody" rows="30"><%=poem.body%></textarea>
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</section>
+
+<%- include("../partials/footer") %>

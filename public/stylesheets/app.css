@@ -1,0 +1,161 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	/*font-family: "Hind Siliguri";*/
+	/* font-family: "Galada"; */
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.font-galada{
+	font-family: "Galada";
+}
+
+.rounded-card{
+	margin-top: 5px !important;
+	margin-left: 50px !important;
+	border-radius: 1rem !important;
+}
+
+.button-spacing{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.content{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 10px solid #17A2B8;
+	font-weight: 100;
+}
+
+.button-center{
+	text-align: center;
+}
+
+div h1{
+	font-weight: 500;
+	font-size: 35px;
+	padding-top: 10px;
+}
+
+.lead{
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+.display-1{
+	font-size: 60px;
+}
+
+.left-margin{
+	margin-left: 150px;
+}
+
+#contact{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 30px;
+}
+
+#copyright{
+	font-family: "Merriweather";
+	font-size: 25px;
+}
+
+#home h4{
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-weight: 200;
+}
+
+#commentUpdate{
+	padding-top: 15px;
+}
+
+#commentCard{
+	margin-top: 15px;
+	width: 100%;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, green, violet, red, blue, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-secondary{
+	padding-top: 5px;
+	font-size: 7px;
+}
+
+.navbar-dark .navbar-text{
+	color: white;
+	margin-right: 10px;
+}
+
+.card{
+	margin: 0 auto;
+	width: 25rem;
+}
+
+.create-account{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.red{
+	color: red;
+}
+
+.btn-floating{
+	color: inherit;	
+}
+
+.hideComment{
+	display: none;
+}
+
+@media (max-width: 	1000px)
+{
+	.font-size-responsive{
+		font-size: 6px;
+	}
+	.full-width-responsive{
+		width: 100%;
+	}
+	.left-margin{
+	margin-left: 0;
+	}
+	#contact{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		font-size: 20px;
+	}
+	#copyright{
+		text-align: center;
+		padding-top: 10px;
+		font-size: 10px;
+	}
+	body{
+		padding-bottom: 0px;
+	}
+	hr{
+		margin: 0px;
+	}
+	#home h4{
+	font-size: 20px;
+	}
+	.display-1{
+	font-size: 50px;
+	}
+	div h1{
+	font-weight: 500;
+	font-size: 25px;
+	padding-top: 10px;
+	}
+}
