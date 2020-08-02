@@ -1,6 +1,6 @@
 const express 		= require("express");
 const router 		= express.Router();
-const Poem 			= require("../models/poem");
+const Poem 		= require("../models/poem");
 const middleware 	= require("../middleware");
 
 router.post("/poems/:id/likes", middleware.isLoggedIn, (req, res) => {
